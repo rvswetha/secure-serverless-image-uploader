@@ -55,10 +55,10 @@ The application utilizes a completely serverless backend architecture on AWS:
 2\. Open `frontend/index.html` and populate the configuration block with your specific AWS resource IDs:
 
 
-Run the frontend using a local web server (such as VS Code Live Server or python -m http.server).
 &#x20;  *const API\_INVOKE\_URL = "YOUR\_API\_GATEWAY\_URL";*
 
 &#x20;  *const USER\_POOL\_ID = "YOUR\_USER\_POOL\_ID";*
 
 &#x20;  *const CLIENT\_ID = "YOUR\_CLIENT\_ID";*
 
+Run the frontend using a local web server (such as VS Code Live Server or python -m http.server).
